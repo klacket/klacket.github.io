@@ -48,3 +48,19 @@ body {
     width: 90%!important;
     margin: 0 auto!important;
 }
+
+.small-column{
+
+    width: 300px!important;
+    height: 300px!important;
+}
+
+.big-column{
+    width: 940px!important;
+    height: 321px!important;
+}
+
+.same-column{
+    width: 460px!important;
+    height: 265px!important;
+}
