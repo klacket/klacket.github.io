@@ -3,9 +3,6 @@ $(document).ready(function() {
 $.fatNav();
 
 
-
-
-
 });
 
 
