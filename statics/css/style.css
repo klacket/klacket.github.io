@@ -70,6 +70,10 @@ body {
     height: 265px!important;
 }
 
+.fat-nav{
+
+    display: none!important;
+}
 
 @media only screen and (max-width: 600px){
 
@@ -95,4 +99,7 @@ body {
 
 }
 
+.fat-nav{
 
+    display: block!important;
+}
