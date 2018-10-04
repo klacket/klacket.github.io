@@ -17,7 +17,7 @@ body {
 
 }
 
-..hamburger{
+.hamburger{
 
     display: none!important;
 }
@@ -35,7 +35,7 @@ body {
     overflow: hidden!important;
     }
 
-..hamburger{
+.hamburger{
 
     display: block!important;
 }
