@@ -65,6 +65,62 @@ body {
     height: 265px!important;
 }
 
+.hamburger {
+    position: relative;
+    height: 50px;
+    width: 55px;
+    margin: 100px auto;
+    padding-top: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.hamburger--line {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    display: block;
+    background-color: #EEE;
+    transition-duration: 250ms;
+    position: absolute;
+}
+
+
+.hamburger--line::before,
+.hamburger--line::after{
+    content: '';
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    display: block;
+    background-color: #EEE;
+    position: absolute;
+    transition: 200ms;
+}
+
+.hamburger--line::before {
+    top: -15px;
+}
+
+.hamburger--line::after {
+    top: 15px;
+}
+
+.hamburger--line__x {
+    transform: rotate(-45deg);
+}
+
+.hamburger--line__x::before,
+.hamburger--line__x::after{
+    transform: rotate(90deg);
+    top: 0px;
+}
+
+.mobile-menu{
+
+    display: none!important;
+}
+
 @media only screen and (max-width: 600px){
 
     .social-icons{
@@ -76,6 +132,10 @@ body {
 
     display: none!important;
 
-
     }
+
+    .mobile-menu{
+
+    display: block!important;
+}
 }
