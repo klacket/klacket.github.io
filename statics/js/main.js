@@ -6,9 +6,14 @@ $(function () {
     $('.hamburger').on('click', function() {
         $(this).find('.hamburger--line').toggleClass('hamburger--line__x');
 
-       $('.dimmer').dimmer('show');
+       $('.dimmer').dimmer({
+                   closable: false,
+       });
+            $('.dimmer').dimmer('toggle');
+
+        });
     });
 
 });
 
-})
+
