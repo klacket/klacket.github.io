@@ -64,3 +64,12 @@ body {
     width: 460px!important;
     height: 265px!important;
 }
+
+@media only screen and (max-width: 600px){
+
+    .social-icons{
+
+        display: none!important;
+    }
+
+}
