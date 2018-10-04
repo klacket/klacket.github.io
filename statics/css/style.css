@@ -17,59 +17,6 @@ body {
 
 }
 
-.site-header{
-
-    width: 100%!important;
-    height: 44%!important;
-    padding: 30px!important;
-
-}
-
-.logo{
-
-    width: 200px!important;
-    left:50px!important;
-}
-
-.social-icons{
-
-    right: 50px!important;
-    top:50px !important;
-}
-
-
-
-.menu-grid{
-
-    width: 100%!important;
-    display: none!important;
-
-
-
-}
-
-.body-grid{
-
-    width: 90%!important;
-    margin: 0 auto!important;
-}
-
-.small-column{
-
-    width: 300px!important;
-    height: 300px!important;
-}
-
-.big-column{
-    width: 940px!important;
-    height: 321px!important;
-}
-
-.same-column{
-    width: 460px!important;
-    height: 265px!important;
-}
-
 .fat-nav{
 
     display: none!important;
@@ -77,22 +24,10 @@ body {
 
 @media only screen and (max-width: 600px){
 
-
     body{
 
     overflow: hidden!important;
     }
-    .social-icons{
-
-        display: none!important;
-    }
-
-    .logo {
-
-    display: none!important;
-
-    }
-
 
 .fat-nav{
 
