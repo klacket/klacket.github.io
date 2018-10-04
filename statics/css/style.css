@@ -22,6 +22,11 @@ body {
     display: none!important;
 }
 
+.hamburger__icon{
+
+        display: none!important;
+
+}
 
 @media only screen and (max-width: 600px){
 
@@ -30,3 +35,15 @@ body {
     overflow: hidden!important;
     }
 
+.fat-nav{
+
+    display: block!important;
+}
+
+.hamburger__icon{
+
+        display: block!important;
+
+}
+
+}
