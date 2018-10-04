@@ -17,7 +17,7 @@ body {
 
 }
 
-.fat-nav{
+..hamburger{
 
     display: none!important;
 }
@@ -35,7 +35,7 @@ body {
     overflow: hidden!important;
     }
 
-.fat-nav{
+..hamburger{
 
     display: block!important;
 }
