@@ -142,6 +142,9 @@ body {
     .mobile-menu{
 
     display: block!important;
-    font-size: 10px!important;
+    font-size: 5px!important;
+     width: 50%;
+        height: 50%;
+
 }
 }
