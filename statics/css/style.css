@@ -17,6 +17,20 @@ body {
 
 }
 
+.hamburger{
+
+
+    display: none!important;
+
+}
+
+
+.hamburger__icon{
+
+
+        display: none!important;
+}
+
 .fat-nav li{
 
     margin: 25px!important;
