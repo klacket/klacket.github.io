@@ -17,15 +17,9 @@ body {
 
 }
 
-.hamburger{
+.fat-nav li{
 
-    display: none!important;
-}
-
-.hamburger__icon{
-
-        display: none!important;
-
+    margin: 25px!important;
 }
 
 @media only screen and (max-width: 600px){
