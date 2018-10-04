@@ -39,6 +39,7 @@ body {
 .menu-grid{
 
     width: 100%!important;
+    display: none!important;
 
 
 
@@ -145,7 +146,7 @@ body {
     display: block!important;
     font-size: 5px!important;
      width: 50%;
-        height: 50%;
+    height: 50%;
 
 }
 }

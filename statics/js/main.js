@@ -6,7 +6,7 @@ $(function () {
     $('.hamburger').on('click', function() {
         $(this).find('.hamburger--line').toggleClass('hamburger--line__x');
 
-       $('.blurring.segment').dimmer('show');
+       $('.dimmer').dimmer('show');
     });
 
 });
