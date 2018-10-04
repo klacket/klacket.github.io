@@ -134,7 +134,7 @@ body {
 
     body{
 
-        overflow: hidden!important;
+        overflow-x: hidden!important;
     }
     .social-icons{
 
