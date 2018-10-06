@@ -36,6 +36,10 @@ body {
     margin: 25px!important;
 }
 
+.logo-column{
+
+}
+
 @media only screen and (max-width: 600px){
 
     body{
@@ -60,9 +64,8 @@ body {
 
     .logo-column{
 
-        float: left!important;
+    margin-right:100%!important;
 
-        left: 0!important;
     }
 
 }
