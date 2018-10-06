@@ -54,4 +54,13 @@ body {
 
 }
 
+    .social-column{
+        display: none!important;
+    }
+
+    .logo-column{
+
+        float: left!important;
+    }
+
 }
